@@ -26,6 +26,7 @@ function App() {
   return (
     <>
       <h1>New Title</h1>
+      <p>this is a paragraph.</p>
 
       <ul>
         {books.map(book => ( <Book key={book.id} {...book} /> ))}
