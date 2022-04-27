@@ -24,14 +24,14 @@ function App() {
   ]
 
   return (
-    <>
-      <h1>New Title</h1>
-      <p>this is a paragraph.</p>
+    <div className="bg-gray-300 h-screen">
+      <h1 className="text-3xl font-bold underline">New Title</h1>
+      <p className="text-blue-400 underline">this is a paragraph.</p>
 
       <ul>
         {books.map(book => ( <Book key={book.id} {...book} /> ))}
       </ul>
-    </>
+    </div>
   )
 }
 
