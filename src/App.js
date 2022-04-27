@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-      <h1>hi there</h1>
+      <h1>My First React App</h1>
       <ul>
         {books.map(book => ( <Book key={book.id} {...book} /> ))}
       </ul>
